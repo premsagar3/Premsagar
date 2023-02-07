@@ -1,0 +1,109 @@
+/* Reset Css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.main-container{
+    height: 100vh;
+    width: 100%;
+
+    /* background-color: black; */
+}
+
+body{
+    height: 2000px;
+}
+
+.home{
+    background: url('https://img4.goodfon.com/wallpaper/nbig/c/e8/gym-fitness-girl-workout.jpg');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: top center;
+}
+
+/* NavBar */
+.navbar{
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 8px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgba(60, 10, 107, 0.61);
+}
+
+.navbar span{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar .links{
+    display: flex;
+}
+
+.navbar .links .link-item{
+    padding: 5px 15px;
+    color: white;
+}
+
+.content{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.holder{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 300px;
+    width: 600px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 40px;
+    border: 5px solid white;
+}
+
+.holder h1,
+.holder h3{
+    padding: 8px 15px;
+    color: white;
+}
+
+
+.heads{
+    text-align: center;
+}
+
+.about{
+    height: 500px;
+    width: 100%;
+    background: rgb(182, 182, 182);
+}
+.services{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(2, 29, 20);
+}
+.content2{
+    background-color: aquamarine;
+    border: 2px solid black;
+    text-align: center;
+    justify-items: center;
+}
